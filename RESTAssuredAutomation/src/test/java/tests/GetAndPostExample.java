@@ -8,8 +8,6 @@ import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class GetAndPostExample {
 	//@Test
@@ -26,12 +24,6 @@ public class GetAndPostExample {
 	
 	@Test
 	public void testPost() {
-		Map<String, Object> map = new HashMap<String, Object>();
-//		map.put("name", "Raghav");
-//		map.put("job", "Teacher");
-//		
-//		
-//		System.out.println(map);
 		
 		JSONObject request = new JSONObject();
 		
